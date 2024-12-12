@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+section{
+    display: flex;
+    gap: 50px;
+
+    & .image{
+        background-image: url("./assets/img/img_login.svg");
+        width: 50%;
+        height: 100vh;
+    }
+    & .image img{
+        width: 100%;
+        
+      
+        
+    }
+   
+
+}
+
+
+.login {
+   border: 0.5px solid #878787;
+   padding: 35PX;
+   
+    & h2{
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 37.5px;
+      
+    }
+    & h1{
+       
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 46.5px;
+    text-align: left;
+    }
+    & p{
+       
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 260px;
+    height: 48px;
+    padding-bottom: 26px;
+    }
+}
+form{
+    width:423px;
+    height:376px;
+    gap: 38px;
+   
+
+}
+ .dados{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 55px;
+   
+   
+    & #email, #passw{
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        border: 0.6px solid #282828CC;
+        padding-left: 27px;
+       
+    }
+    & .teste {
+        display: flex;
+        border: 1px solid black;
+    }
+    & #passw {
+        border-right: none;
+        border: none;
+        outline: none;
+    }
+    & img{
+        width: 21px;
+    height: 18.13px;
+    top: 1.43px;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    padding-left: 160px;
+    justify-content: center;
+    
+    }
+
+ }
+  .lembra{
+    display:flex ;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: space-between;
+
+    & #quadra{
+        width: 15px;
+        height: 15px;
+        border: 1px 0px 0px 0px;
+}
+ & p, h6{
+    color: #4D4D4D;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+
+    }
+
+  }
+  .btn button{
+    width: 423px;
+    height: 60px;
+    border-radius: 6px;
+    padding: 18px 18px;
+    gap: 10px;
+    display: flex;
+    background-color:#111111;
+    color: #fff;
+   justify-content: center;
+  }
+@media screen and (max-width: 1050px){
+    section {
+        flex-direction: column;
+       
+        background-repeat: no-repeat;
+
+     
+
+        & .image{
+            background-image: url(none);
+            width: 0;
+            height: 0;
+        }
+        & .image img{
+            width: 100%;
+            
+          
+            
+        }
+       
+}
+    
+}
